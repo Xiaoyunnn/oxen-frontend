@@ -3,25 +3,20 @@
 }
 
 .blue-divider {
-  background: linear-gradient(135.43deg, #3bc7fd 0.5%, #176ebb 99.76%);
+  background: var(--color-gradient);
   width: 85px;
   height: 5px;
   border-radius: 20px;
-}
-
-h1 {
-  color: var(--color-text);
-  line-height: 100px;
+  margin-top: 100px;
 }
 
 .submit-enquiry-btn {
   color: white;
-  background: linear-gradient(135.43deg, #3bc7fd 0.5%, #176ebb 99.76%);
+  background: var(--color-gradient);
   outline: none;
   border: none;
   cursor: pointer;
   padding: 12px 40px;
-  font-weight: 600;
   border-radius: 10px;
 }
 

@@ -1,5 +1,5 @@
 :root {
-  --font: "Roboto", sans-serif;
+  --font: "Outfit", sans-serif;
   --color-bg: #fff;
   --color-text: #272c49;
   --color-gray: #6e7f8f;
@@ -8,12 +8,36 @@
   --color-green: #57f0d1;
   --color-theme: #28a5df;
   --color-theme-darker: #0882bb;
+  --color-gradient: linear-gradient(135.43deg, #3bc7fd 0.5%, #176ebb 99.76%);
 }
 
 * {
   margin: 0;
   padding: 0;
   font-family: var(--font);
+}
+
+h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 80px;
+  width: 60%;
+  margin-bottom: 1rem;
+  letter-spacing: 1.2px;
+}
+
+h2 {
+  color: var(--color-text);
+  line-height: 90px;
+  font-size: 50px;
+  letter-spacing: 1.2px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-gray);
+  font-weight: 300;
 }
 
 body {

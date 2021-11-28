@@ -6,7 +6,7 @@ const Enquiry = () => {
   return (
     <div className="flex-center flex-col">
       <div className="blue-divider" />
-      <h1>Further Enquiries</h1>
+      <h2>Further Enquiries</h2>
       <div className="form-wrapper">
         <form className="enquiry-form">
           <div className="form-margin">

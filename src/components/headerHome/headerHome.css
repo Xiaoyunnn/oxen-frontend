@@ -1,0 +1,28 @@
+.header-wrapper {
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  padding-left: 10%;
+  color: #fff;
+}
+
+.header-wrapper p {
+  width: 50%;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.learn-more {
+  text-transform: uppercase;
+  background: var(--color-gradient);
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 20px 48px;
+  border-radius: 10px;
+  margin-top: 2rem;
+  font-size: 18px;
+}
