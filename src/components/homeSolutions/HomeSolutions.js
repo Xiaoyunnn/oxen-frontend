@@ -20,7 +20,6 @@ const HomeSolutions = () => {
               <button className="hover-btn">View More</button>
             </div>
           </div>
-
           <div className="txt-wrapper">
             <h3>Noise Monitoring System</h3>
             <p>

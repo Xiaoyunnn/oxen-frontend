@@ -1,0 +1,25 @@
+.characteristic-card-wrapper {
+  background: #fbfbfb;
+  border: 1px solid #ececec;
+  border-radius: 20px;
+  padding: 1.5rem;
+  margin: 0 0.3rem;
+  width: 19%;
+  height: 340px;
+}
+
+.characteristic-title {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.characteristic-title img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.even {
+  position: relative;
+  top: 80px;
+}
