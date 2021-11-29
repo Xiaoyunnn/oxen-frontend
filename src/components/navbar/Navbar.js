@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./navbar.css";
 
 function Navbar() {
@@ -50,7 +50,7 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 exact="true"
-                to="/solution"
+                to="/solutions"
                 activeclassname="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}

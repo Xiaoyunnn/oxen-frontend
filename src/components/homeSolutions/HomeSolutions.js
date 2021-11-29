@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./homeSolutions.css";
 
 const HomeSolutions = () => {
@@ -17,7 +18,9 @@ const HomeSolutions = () => {
               className="image"
             />
             <div className="hover-btn-wrapper">
-              <button className="hover-btn">View More</button>
+              <Link to="/noise-monitoring-system">
+                <button className="hover-btn">View More</button>
+              </Link>
             </div>
           </div>
           <div className="txt-wrapper">

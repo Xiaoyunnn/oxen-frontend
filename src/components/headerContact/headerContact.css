@@ -1,0 +1,10 @@
+.subheader-wrapper {
+  background-size: cover;
+  height: 57vh;
+  display: flex;
+  justify-content: center;
+  padding-left: 10%;
+  color: #fff;
+  object-fit: cover;
+  background-position: 35% 100%;
+}

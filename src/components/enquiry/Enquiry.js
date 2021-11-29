@@ -2,11 +2,11 @@ import { FormControl, TextField } from "@mui/material";
 import React from "react";
 import "./enquiry.css";
 
-const Enquiry = () => {
+const Enquiry = ({ page }) => {
   return (
     <div className="flex-center flex-col">
       <div className="blue-divider" />
-      <h2>Further Enquiries</h2>
+      {page === "contact" ? <h2>Contact Form</h2> : <h2>Further Enquiries</h2>}
       <div className="form-wrapper">
         <form className="enquiry-form">
           <div className="form-margin">

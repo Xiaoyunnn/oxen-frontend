@@ -5,7 +5,7 @@
   --color-gray: #6e7f8f;
   --color-yellow: #ffa33d;
   --color-border: #ececec;
-  --color-green: #57f0d1;
+  --color-green: #29d1af;
   --color-theme: #28a5df;
   --color-theme-darker: #068bc9;
   --color-gradient: linear-gradient(135.43deg, #3bc7fd 0.5%, #176ebb 99.76%);
@@ -38,6 +38,12 @@ h2 {
   letter-spacing: 1.2px;
 }
 
+h3 {
+  font-size: 26px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
 h4 {
   color: var(--color-theme-darker);
   font-weight: 600;
@@ -66,6 +72,12 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.flex-align-start {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .flex-col {
