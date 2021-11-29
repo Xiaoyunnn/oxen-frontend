@@ -1,5 +1,5 @@
 .pdt-img {
-  width: 100%;
+  width: 85%;
   height: 300px;
   object-fit: contain;
   background-repeat: no-repeat;
@@ -7,5 +7,13 @@
 }
 
 .noise-pdt {
-  width: 35%;
+  width: 27vw;
+  height: 430px;
+}
+
+.pdt-img-wrapper {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

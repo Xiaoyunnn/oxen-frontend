@@ -15,7 +15,7 @@ const NoiseProducts = () => {
           />
 
           <div className="txt-wrapper">
-            <h3>Solar Panels</h3>
+            <h5>Solar Panels</h5>
             <p>Source of energy for our green energy system.</p>
           </div>
         </div>
@@ -24,7 +24,7 @@ const NoiseProducts = () => {
           <img src="/assets/nm1.jpeg" alt="noise-meter" className="pdt-img" />
 
           <div className="txt-wrapper">
-            <h3>Noise Meter</h3>
+            <h5>Noise Meter</h5>
             <p>Key feature of our noise monitoring System</p>
           </div>
         </div>

@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import NoiseMonitoringSys from "./pages/noiseMonitoringSys/NoiseMonitoringSys";
 import Solutions from "./pages/solutions/Solutions";
+import Products from "./pages/products/Products";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/solutions" element={<Solutions />} />
+        <Route path="/products" element={<Products />} />
       </Routes>
     </Router>
   );
