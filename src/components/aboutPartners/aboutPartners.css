@@ -1,0 +1,22 @@
+.partner-grid {
+  width: 15vw;
+  height: 15vw;
+  border: 1px solid #ececec;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-grid img {
+  width: 85%;
+}
+
+.partner-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  padding: 8px 0;
+}

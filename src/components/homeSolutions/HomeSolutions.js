@@ -4,7 +4,7 @@ import "./homeSolutions.css";
 
 const HomeSolutions = () => {
   return (
-    <div className="flex-center flex-col">
+    <div className="container">
       <div className="blue-divider" />
       <h2>Solutions</h2>
       <p className="subheader">We provide complete construction solutions.</p>
@@ -24,7 +24,9 @@ const HomeSolutions = () => {
             </div>
           </div>
           <div className="txt-wrapper">
-            <h3>Noise Monitoring System</h3>
+            <div className="solution-title">
+              <h5>Noise Monitoring System</h5>
+            </div>
             <p>
               OST is a Singapore NEA approved Real Time Noise Monitoring service
               provider.
@@ -44,7 +46,9 @@ const HomeSolutions = () => {
             </div>
           </div>
           <div className="txt-wrapper">
-            <h3>TSS Monitoring System</h3>
+            <div className="solution-title">
+              <h5>TSS Monitoring System</h5>
+            </div>
             <p>
               OST is an approved PUB technology vendor for TSS monitoring
               system. TSS monitoring system is to monitor the silty discharge
@@ -65,7 +69,9 @@ const HomeSolutions = () => {
             </div>
           </div>
           <div className="txt-wrapper">
-            <h3>Remote Traffic Monitoring System (Skycam)</h3>
+            <div className="solution-title">
+              <h5>Remote Traffic Monitoring System (Skycam)</h5>
+            </div>
             <p>
               We provide CCTV systems for monitoring of floor activities on
               construction site. Our specialties include CCTV for tower crane,

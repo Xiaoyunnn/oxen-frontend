@@ -3,7 +3,7 @@ import "./homeStandout.css";
 
 const HomeStandout = () => {
   return (
-    <div className="flex-center flex-col">
+    <div className="container">
       <div className="blue-divider" />
       <h2>What Makes Us Stand Out</h2>
 
@@ -49,7 +49,7 @@ const HomeStandout = () => {
           <p>
             Approved (Land Transport Authority) LTA Technology Supplier for
             on-site Sky Cameras. Approved (Public Utility Board) PUB Technology
-            Supplier for Earth Control Measure’s CCTV monitoring systssem.
+            Supplier for Earth Control Measure’s CCTV monitoring system.
           </p>
         </div>
       </div>

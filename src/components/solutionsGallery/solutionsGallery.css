@@ -1,0 +1,13 @@
+.solution-gallery-title {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.solution-gallery-title-2 {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
