@@ -9,6 +9,11 @@
   --color-theme: #28a5df;
   --color-theme-darker: #068bc9;
   --color-gradient: linear-gradient(135.43deg, #3bc7fd 0.5%, #176ebb 99.76%);
+  --color-gradient-darker: linear-gradient(
+    135.43deg,
+    var(--color-theme) 0.5%,
+    #176ebb 99.76%
+  );
 }
 
 * {

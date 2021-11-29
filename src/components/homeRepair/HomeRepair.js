@@ -18,6 +18,7 @@ const HomeRepair = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className="dot-pattern"
+        style={{ width: "100%" }}
       >
         <g opacity="0.15">
           <path

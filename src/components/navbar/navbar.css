@@ -115,11 +115,7 @@
 }
 
 #contact:hover {
-  background: linear-gradient(
-    135.43deg,
-    var(--color-theme) 0.5%,
-    #176ebb 99.76%
-  );
+  background: var(--color-gradient-darker);
   transition: all 1s ease;
 }
 

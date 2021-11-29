@@ -13,7 +13,7 @@ function Navbar() {
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
+          <NavLink exact="true" to="/" className="nav-logo">
             <img
               src="./assets/website_logo_transparent_background.png"
               alt="logo"
@@ -25,9 +25,9 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
@@ -37,9 +37,9 @@ function Navbar() {
 
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/about"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
@@ -49,9 +49,9 @@ function Navbar() {
 
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/solution"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
@@ -61,9 +61,9 @@ function Navbar() {
 
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/products"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
@@ -73,9 +73,9 @@ function Navbar() {
 
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/services"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
@@ -85,7 +85,7 @@ function Navbar() {
 
             <li className="nav-item-contact">
               <NavLink
-                exact
+                exact="true"
                 to="/contact"
                 id="contact"
                 onClick={click ? handleClick : null}

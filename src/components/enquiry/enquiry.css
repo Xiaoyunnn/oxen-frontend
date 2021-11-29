@@ -20,6 +20,11 @@
   border-radius: 10px;
 }
 
+.submit-enquiry-btn:hover {
+  background: var(--color-gradient-darker);
+  transform: all 0.3s ease-in-out;
+}
+
 .form-margin {
   margin-bottom: 25px !important;
   display: flex;

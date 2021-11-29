@@ -1,7 +1,7 @@
 .footer-wrapper {
   background-color: rgb(240, 243, 248);
   margin-top: 80px;
-  padding: 4rem 12%;
+  padding: 3.5rem 10%;
 }
 
 .footer-logo {
@@ -24,8 +24,8 @@
 .footer-col {
   width: 33%;
   flex-direction: column;
-  height: 350px;
-  padding: 0 12px;
+  height: 340px;
+  padding: 0 16px;
 }
 
 .fab {
@@ -68,18 +68,16 @@
 }
 
 .location-map {
-  width: 250px;
+  width: 100%;
   margin-top: 10px;
+  opacity: 1;
+  border-radius: 16px;
 }
 
 .footer-subhead {
   color: var(--color-theme);
   line-height: 50px;
 }
-
-/* .footer-col p {
-  width: 90%;
-} */
 
 hr {
   background-color: rgb(211, 211, 211);
@@ -115,4 +113,10 @@ hr {
 
 .fa-envelope {
   margin-top: 12px;
+}
+
+@media (min-width: 1150px) {
+  .footer-col .hover-btn-wrapper {
+    bottom: 60%;
+  }
 }
