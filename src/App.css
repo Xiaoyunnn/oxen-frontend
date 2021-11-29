@@ -93,3 +93,11 @@ body {
 .flex-col {
   flex-direction: column;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.5rem 7%;
+}
