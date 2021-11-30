@@ -14,9 +14,7 @@ const SolutionsGallery = () => {
               className="image"
             />
             <div className="hover-btn-wrapper">
-              <Link to="/noise-monitoring-system">
-                <button className="hover-btn">View More</button>
-              </Link>
+              <button className="hover-btn">View More</button>
             </div>
           </div>
           <div className="txt-wrapper">
@@ -39,7 +37,9 @@ const SolutionsGallery = () => {
               className="image"
             />
             <div className="hover-btn-wrapper">
-              <button className="hover-btn">View More</button>
+              <Link to="/noise-monitoring-system">
+                <button className="hover-btn">View More</button>
+              </Link>
             </div>
           </div>
           <div className="txt-wrapper">
@@ -85,9 +85,7 @@ const SolutionsGallery = () => {
               className="image"
             />
             <div className="hover-btn-wrapper">
-              <Link to="/noise-monitoring-system">
-                <button className="hover-btn">View More</button>
-              </Link>
+              <button className="hover-btn">View More</button>
             </div>
           </div>
           <div className="txt-wrapper">

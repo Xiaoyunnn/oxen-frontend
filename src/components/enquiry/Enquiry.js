@@ -4,7 +4,7 @@ import "./enquiry.css";
 
 const Enquiry = ({ page }) => {
   return (
-    <div className="flex-center flex-col">
+    <div className="container">
       <div className="blue-divider" />
       {page === "contact" ? <h2>Contact Form</h2> : <h2>Further Enquiries</h2>}
       <div className="form-wrapper">

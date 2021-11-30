@@ -7,6 +7,7 @@ import NoiseMonitoringSys from "./pages/noiseMonitoringSys/NoiseMonitoringSys";
 import Solutions from "./pages/solutions/Solutions";
 import Products from "./pages/products/Products";
 import Services from "./pages/services/Services";
+import SolarPanels from "./pages/solarPanels/SolarPanels";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/solutions" element={<Solutions />} />
         <Route path="/products" element={<Products />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/solar-panels" element={<SolarPanels />} />
       </Routes>
     </Router>
   );

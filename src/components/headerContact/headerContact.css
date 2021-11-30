@@ -8,3 +8,7 @@
   object-fit: cover;
   background-position: 35% 100%;
 }
+
+.subheader-wrapper p {
+  font-size: 20px;
+}

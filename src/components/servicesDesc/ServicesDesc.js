@@ -2,10 +2,7 @@ import React from "react";
 
 const ServicesDesc = () => {
   return (
-    <div
-      className="container"
-      style={{ backgroundColor: "#FBFBFB", paddingTop: "0" }}
-    >
+    <div className="container" style={{ backgroundColor: "#FBFBFB" }}>
       <div className="blue-divider" />
       <h2>Technical Support</h2>
       <p style={{ width: "90%", margin: "1rem 0" }}>

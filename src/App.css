@@ -101,3 +101,11 @@ body {
   flex-direction: column;
   padding: 2.5rem 7%;
 }
+
+.blue-divider {
+  background: var(--color-gradient);
+  width: 85px;
+  height: 5px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
