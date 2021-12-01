@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./homeRepair.css";
 
 const HomeRepair = () => {
@@ -824,7 +825,9 @@ const HomeRepair = () => {
         </g>
       </svg>
 
-      <button className="learn-more">Technical Support</button>
+      <Link to="/services">
+        <button className="learn-more">Technical Support</button>
+      </Link>
     </div>
   );
 };

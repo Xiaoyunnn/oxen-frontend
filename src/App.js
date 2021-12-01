@@ -15,6 +15,7 @@ import CctvSurveillance from "./pages/CctvSurveillance";
 import BiometricSys from "./pages/BiometricSys";
 import CctvCameras from "./pages/CctvCameras";
 import NoiseMeter from "./pages/NoiseMeter";
+import VibrationMeter from "./pages/VibrationMeter";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           element={<BiometricSys />}
         />
         <Route path="/noise-meter" element={<NoiseMeter />} />
+        <Route path="/vibration-meter" element={<VibrationMeter />} />
       </Routes>
     </Router>
   );
