@@ -13,6 +13,7 @@ import Skycam from "./pages/Skycam";
 import VibrationSys from "./pages/VibrationSys";
 import CctvSurveillance from "./pages/CctvSurveillance";
 import BiometricSys from "./pages/BiometricSys";
+import CctvCameras from "./pages/CctvCameras";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/solar-panels" element={<SolarPanels />} />
         <Route path="/tss" element={<Tss />} />
         <Route path="/cctv-surveillance" element={<CctvSurveillance />} />
+        <Route path="/cctv-cameras" element={<CctvCameras />} />
         <Route path="/skycam" element={<Skycam />} />
         <Route path="/vibration-monitoring-system" element={<VibrationSys />} />
         <Route

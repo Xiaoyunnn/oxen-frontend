@@ -41,7 +41,7 @@ const VibrationProducts = () => {
           </div>
           <div className="txt-wrapper product-text">
             <h5>Vibration Meter</h5>
-            <p>Focus of our surveillance system.</p>
+            <p>Focus of our vibration monitoring system.</p>
           </div>
         </div>
       </div>

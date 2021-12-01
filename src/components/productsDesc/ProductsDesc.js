@@ -29,9 +29,15 @@ const ProductsDesc = () => {
         </div>
 
         <div className="img-wrapper flex-center flex-col noise-pdt">
-          <div className="pdt-img-wrapper">
-            <img src="/assets/nm1.jpeg" alt="noise-meter" className="pdt-img" />
+          <div className="img-hover-wrapper product-image">
+            <img src="/assets/nm1.jpeg" alt="nm1" className="pdt-img" />
+            <div className="hover-btn-wrapper">
+              <Link to="/noise-meter">
+                <button className="hover-btn">View More</button>
+              </Link>
+            </div>
           </div>
+
           <div className="txt-wrapper">
             <h5>Noise Meter</h5>
             <p>Key feature of our noise monitoring System</p>
@@ -41,24 +47,35 @@ const ProductsDesc = () => {
 
       <div className="flex-center" style={{ marginTop: "2.5rem" }}>
         <div className="img-wrapper flex-center flex-col noise-pdt">
-          <div className="pdt-img-wrapper">
+          <div className="img-hover-wrapper product-image">
             <img
               src="/assets/vibrationProduct.png"
-              alt="vibration-pdt"
+              alt="vibration-meter"
               className="pdt-img"
             />
+            <div className="hover-btn-wrapper">
+              <Link to="/vibration-meter">
+                <button className="hover-btn">View More</button>
+              </Link>
+            </div>
           </div>
 
           <div className="txt-wrapper">
             <h5>Vibration Meter</h5>
-            <p>Focus of our surveillance system.</p>
+            <p>Focus of our vibration monitoring system.</p>
           </div>
         </div>
 
         <div className="img-wrapper flex-center flex-col noise-pdt">
-          <div className="pdt-img-wrapper">
+          <div className="img-hover-wrapper product-image">
             <img src="/assets/cctv-pdt.jpg" alt="cctv" className="pdt-img" />
+            <div className="hover-btn-wrapper">
+              <Link to="/cctv-cameras">
+                <button className="hover-btn">View More</button>
+              </Link>
+            </div>
           </div>
+
           <div className="txt-wrapper">
             <h5>CCTV Cameras</h5>
             <p>Focus of our surveillance system.</p>
