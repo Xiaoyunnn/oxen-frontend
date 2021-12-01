@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Enquiry from "../components/enquiry/Enquiry";
 import Footer from "../components/footer/Footer";
 import HeaderSkycam from "../components/headerSkycam/HeaderSkycam";
@@ -8,6 +8,10 @@ import SkycamFeatures from "../components/skycamFeatures/SkycamFeatures";
 import TssProducts from "../components/tssProducts/TssProducts";
 
 const Skycam = () => {
+  useEffect(() => {
+    document.title = "Skycam";
+  }, []);
+
   return (
     <div>
       <Navbar />

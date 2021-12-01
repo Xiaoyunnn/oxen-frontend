@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer-wrapper">
-      <div className="img-txt-container flex-center">
+      <div className="img-txt-container flex-align-start">
         <div className="footer-col">
           <div className="footer-name-wrapper">
             <img

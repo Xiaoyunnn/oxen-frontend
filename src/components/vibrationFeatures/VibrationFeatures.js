@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import GreenSystem from "../tssFeatures/GreenSystem";
-import "./noiseFeatures.css";
 
-const NoiseFeatures = () => {
+const VibrationFeatures = () => {
   const [isFeatureToggle, setIsFeatureToggle] = useState(true);
 
   return (
@@ -28,38 +27,39 @@ const NoiseFeatures = () => {
           <div className="features-col">
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
-              <p>National Environmental Agency (NEA) approved</p>
-            </div>
-            <div className="flex-align-start">
-              <i className="fas fa-check-circle" />
               <p>
-                Automatic analysis with reference to legal requirements for
-                different periods. Leq 5 min, 1 hour and 12 hour
+                Wireless real-time construction vibration monitoring system.
               </p>
             </div>
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
-              <p>SMS & Email alerts</p>
+              <p>Complies with industry standard DIN4150 part 3.</p>
+            </div>
+            <div className="flex-align-start">
+              <i className="fas fa-check-circle" />
+              <p>
+                With 3-axis (X, Y, Z) direction, PPV, PPA, PVS, VDV, Velocity
+                traces measuring points.
+              </p>
             </div>
           </div>
 
           <div className="features-col">
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
-              <p>
-                Web-based, Real-time Noise monitoring (user-password protected)
-              </p>
+              <p>Online web portal with 3 levels alert setting.</p>
             </div>
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
-              <p>
-                Various report formats including 24/7, SMS alert, full report
-                can be view anytime and everywhere.
-              </p>
+              <p>Unlimited SMS and email alerts.</p>
             </div>
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
-              <p>Retrievable data for selected dates over the internet.</p>
+              <p>GPS location trackers.</p>
+            </div>
+            <div className="flex-align-start">
+              <i className="fas fa-check-circle" />
+              <p>Daily reporting from the system.</p>
             </div>
           </div>
         </div>
@@ -67,11 +67,11 @@ const NoiseFeatures = () => {
         <GreenSystem />
       )}
 
-      <Link to="/assets/NoiseMeter.pdf" target="_blank" download>
+      <Link to="/assets/Ecm.pdf" target="_blank" download>
         <button className="learn-more">Download PDF</button>
       </Link>
     </div>
   );
 };
 
-export default NoiseFeatures;
+export default VibrationFeatures;

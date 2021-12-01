@@ -11,7 +11,7 @@ const SkycamFeatures = () => {
           className={isFeatureToggle ? "toggled-header" : "untoggled-header"}
           onClick={() => setIsFeatureToggle(true)}
         >
-          Key Features
+          Features
         </div>
         <div
           className={isFeatureToggle ? "untoggled-header" : "toggled-header"}

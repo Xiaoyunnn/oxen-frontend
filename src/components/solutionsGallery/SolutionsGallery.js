@@ -63,7 +63,9 @@ const SolutionsGallery = () => {
               className="image"
             />
             <div className="hover-btn-wrapper">
-              <button className="hover-btn">View More</button>
+              <Link to="/vibration-monitoring-system">
+                <button className="hover-btn">View More</button>
+              </Link>
             </div>
           </div>
           <div className="txt-wrapper">
@@ -87,7 +89,9 @@ const SolutionsGallery = () => {
               className="image"
             />
             <div className="hover-btn-wrapper">
-              <button className="hover-btn">View More</button>
+              <Link to="/cctv-surveillance">
+                <button className="hover-btn">View More</button>
+              </Link>
             </div>
           </div>
           <div className="txt-wrapper">
@@ -110,7 +114,9 @@ const SolutionsGallery = () => {
               className="image"
             />
             <div className="hover-btn-wrapper">
-              <button className="hover-btn">View More</button>
+              <Link to="/skycam">
+                <button className="hover-btn">View More</button>
+              </Link>
             </div>
           </div>
           <div className="txt-wrapper">
@@ -132,7 +138,9 @@ const SolutionsGallery = () => {
               className="image"
             />
             <div className="hover-btn-wrapper">
-              <button className="hover-btn">View More</button>
+              <Link to="/biometric-authentication-system">
+                <button className="hover-btn">View More</button>
+              </Link>
             </div>
           </div>
           <div className="txt-wrapper">

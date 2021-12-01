@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import GreenSystem from "../tssFeatures/GreenSystem";
-import "./noiseFeatures.css";
 
-const NoiseFeatures = () => {
+const CctvSurveillanceFeatures = () => {
   const [isFeatureToggle, setIsFeatureToggle] = useState(true);
 
   return (
@@ -28,18 +27,25 @@ const NoiseFeatures = () => {
           <div className="features-col">
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
-              <p>National Environmental Agency (NEA) approved</p>
+              <p>Public Utility Board of Singapore (PUB) approved.</p>
+            </div>
+            <div className="flex-align-start">
+              <i className="fas fa-check-circle" />
+              <p>Land Transport Authority of Singapore (LTA) approved.</p>
+            </div>
+            <div className="flex-align-start">
+              <i className="fas fa-check-circle" />
+              <p>Housing Development Board of Singapore (HDB) approved.</p>
+            </div>
+            <div className="flex-align-start">
+              <i className="fas fa-check-circle" />
+              <p>Video management system.</p>
             </div>
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
               <p>
-                Automatic analysis with reference to legal requirements for
-                different periods. Leq 5 min, 1 hour and 12 hour
+                Options with minimum 2 wide-angle Pan-Till-Zoom (PTZ) cameras.
               </p>
-            </div>
-            <div className="flex-align-start">
-              <i className="fas fa-check-circle" />
-              <p>SMS & Email alerts</p>
             </div>
           </div>
 
@@ -47,19 +53,21 @@ const NoiseFeatures = () => {
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
               <p>
-                Web-based, Real-time Noise monitoring (user-password protected)
+                Web-based, Real-time viewing with user-ID and password
+                protected.
               </p>
             </div>
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
-              <p>
-                Various report formats including 24/7, SMS alert, full report
-                can be view anytime and everywhere.
-              </p>
+              <p>Real-time video viewing through mobile phone.</p>
             </div>
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
-              <p>Retrievable data for selected dates over the internet.</p>
+              <p>Options of using 4G or via wireless bridge.</p>
+            </div>
+            <div className="flex-align-start">
+              <i className="fas fa-check-circle" />
+              <p>Supported with IP67 waterproof cameras.</p>
             </div>
           </div>
         </div>
@@ -67,11 +75,11 @@ const NoiseFeatures = () => {
         <GreenSystem />
       )}
 
-      <Link to="/assets/NoiseMeter.pdf" target="_blank" download>
+      <Link to="/assets/CCTV.pdf" target="_blank" download>
         <button className="learn-more">Download PDF</button>
       </Link>
     </div>
   );
 };
 
-export default NoiseFeatures;
+export default CctvSurveillanceFeatures;

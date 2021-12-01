@@ -10,6 +10,9 @@ import Services from "./pages/Services";
 import SolarPanels from "./pages/SolarPanels";
 import Tss from "./pages/Tss";
 import Skycam from "./pages/Skycam";
+import VibrationSys from "./pages/VibrationSys";
+import CctvSurveillance from "./pages/CctvSurveillance";
+import BiometricSys from "./pages/BiometricSys";
 
 function App() {
   return (
@@ -27,8 +30,13 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/solar-panels" element={<SolarPanels />} />
         <Route path="/tss" element={<Tss />} />
-        <Route path="/cctv-surveillance" element={<SolarPanels />} />
+        <Route path="/cctv-surveillance" element={<CctvSurveillance />} />
         <Route path="/skycam" element={<Skycam />} />
+        <Route path="/vibration-monitoring-system" element={<VibrationSys />} />
+        <Route
+          path="/biometric-authentication-system"
+          element={<BiometricSys />}
+        />
       </Routes>
     </Router>
   );

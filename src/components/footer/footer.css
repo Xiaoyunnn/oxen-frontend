@@ -24,8 +24,7 @@
 .footer-col {
   width: 33%;
   flex-direction: column;
-  height: 340px;
-  padding: 0 16px;
+  padding: 0 1rem 3rem;
 }
 
 .fab {
