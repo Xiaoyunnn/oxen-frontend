@@ -11,7 +11,7 @@ const SolarSolutions = () => {
         <div className="img-wrapper flex-center flex-col solar-pdt">
           <div className="img-hover-wrapper product-image">
             <img
-              src="/assets/solar-cctv.jpg"
+              src="/assets/cctv1.png"
               alt="solar125W"
               className="pdt-img sol-image"
             />
@@ -25,8 +25,9 @@ const SolarSolutions = () => {
           <div className="txt-wrapper">
             <h5>CCTV Surveillance</h5>
             <p>
-              Integrated into system as a source of energy for our green energy
-              system.
+              OST Technologies provide CCTV systems for monitoring of floor
+              activities on construction site. Our specialties include CCTV for
+              tower crane, CCTV sky camera, time lapse CCTV, etc.
             </p>
           </div>
         </div>
@@ -47,8 +48,8 @@ const SolarSolutions = () => {
           <div className="txt-wrapper">
             <h5>Noise Meter System</h5>
             <p>
-              Integrated into system as a source of energy for our green energy
-              system.
+              OST Technologies is a Singapore NEA approved Real Time Noise
+              Monitoring service provider.
             </p>
           </div>
         </div>
@@ -72,8 +73,9 @@ const SolarSolutions = () => {
           <div className="txt-wrapper">
             <h5>Turbidity Solid Sensor</h5>
             <p>
-              Integrated into system as a source of energy for our green energy
-              system.
+              OST is an approved PUB technology vendor for TSS monitoring
+              system. TSS monitoring system is to monitor silty discharge for
+              construction sites.
             </p>
           </div>
         </div>
@@ -94,8 +96,9 @@ const SolarSolutions = () => {
           <div className="txt-wrapper">
             <h5>Traffic Monitoring (SkyCam)</h5>
             <p>
-              Integrated into system as a source of energy for our green energy
-              system.
+              OST Technologies provide CCTV systems for monitoring of floor
+              activities on construction site. Our specialties include CCTV for
+              tower crane, CCTV sky camera, time lapse CCTV.
             </p>
           </div>
         </div>

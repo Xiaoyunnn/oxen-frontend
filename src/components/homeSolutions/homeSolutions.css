@@ -43,6 +43,11 @@
 .img-hover-wrapper {
   height: 38%;
   position: relative;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .txt-wrapper {

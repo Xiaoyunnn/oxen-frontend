@@ -10,7 +10,7 @@ const CctvSolutions = () => {
         <div className="img-wrapper flex-center flex-col solar-pdt">
           <div className="img-hover-wrapper product-image">
             <img
-              src="/assets/solar-cctv.jpg"
+              src="/assets/cctv1.png"
               alt="solar125W"
               className="pdt-img sol-image"
             />
@@ -24,8 +24,9 @@ const CctvSolutions = () => {
           <div className="txt-wrapper">
             <h5>CCTV Surveillance</h5>
             <p>
-              Integrated into system as a source of energy for our green energy
-              system.
+              OST Technologies provide CCTV systems for monitoring of floor
+              activities on construction site. Our specialties include CCTV for
+              tower crane, CCTV sky camera, time lapse CCTV, etc.
             </p>
           </div>
         </div>
@@ -46,8 +47,9 @@ const CctvSolutions = () => {
           <div className="txt-wrapper">
             <h5>Traffic Monitoring (SkyCam)</h5>
             <p>
-              Integrated into system as a source of energy for our green energy
-              system.
+              OST Technologies provide CCTV systems for monitoring of floor
+              activities on construction site. Our specialties include CCTV for
+              tower crane, CCTV sky camera, time lapse CCTV.
             </p>
           </div>
         </div>
