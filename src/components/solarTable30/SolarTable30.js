@@ -1,7 +1,6 @@
 import React from "react";
-import "./solarTable.css";
 
-const SolarTable = () => {
+const SolarTable30 = () => {
   return (
     <div className="container">
       <div className="table-wrapper">
@@ -12,36 +11,49 @@ const SolarTable = () => {
             <tbody>
               <tr>
                 <td>Model</td>
-                <td className="even-col">YS125M-36</td>
+                <td className="even-col">YS30M/YS30P</td>
               </tr>
               <tr>
                 <td>Rated Maximum Power at STC</td>
-                <td className="even-col">125W</td>
+                <td className="even-col">30W</td>
               </tr>
               <tr>
                 <td>Maximum Power Voltage (Vmp)</td>
-                <td className="even-col">18.78V</td>
+                <td className="even-col">18.5V</td>
               </tr>
               <tr>
                 <td>Maximum Power Current (Imp)</td>
-                <td className="even-col">6.03A</td>
+                <td className="even-col">1.62A</td>
               </tr>
               <tr>
                 <td>Open Circuit Voltage (Voc)</td>
-                <td className="even-col">22.85V</td>
+                <td className="even-col">22.2V</td>
+              </tr>
+              <tr>
+                <td>Short circuit Voltage (Isc)</td>
+                <td className="even-col">1.70A</td>
               </tr>
               <tr>
                 <td>Module Efficiency</td>
-                <td className="even-col">16.88%</td>
+                <td className="even-col">12.92%</td>
               </tr>
               <tr>
                 <td>Power Tolerance</td>
                 <td className="even-col">0 ~ +3%</td>
               </tr>
+              <tr>
+                <td>Dimension</td>
+                <td className="even-col">350mm x 670mm x 25mm</td>
+              </tr>
+              <tr>
+                <td>Weight</td>
+                <td className="even-col">3.0kg</td>
+              </tr>
             </tbody>
           </table>
           <p className="caption">
-            STC: irradiance 1000W/m2, Module Temperature 25C, Air Mass 1.5
+            STC: irradiance 1000W/m<sup>2</sup>, Module Temperature 25C, Air
+            Mass 1.5
           </p>
         </div>
 
@@ -61,22 +73,14 @@ const SolarTable = () => {
                 <td className="even-col">36 (4 x 9)</td>
               </tr>
               <tr>
-                <td>Dimension</td>
-                <td className="even-col">1199mm x 543mm x 35mm 3.2mm</td>
-              </tr>
-              <tr>
                 <td>Glass</td>
                 <td className="even-col">
-                  High Transmission, Low Iron, Tempered Glass
+                  3.2mm, High Transmission, Low Iron, Tempered Glass
                 </td>
               </tr>
               <tr>
                 <td>Junction Box</td>
-                <td className="even-col">Junction Box IP65 & IP67 rated</td>
-              </tr>
-              <tr>
-                <td>Output Cable</td>
-                <td className="even-col">Size: 2.5mm2, Length: 600m</td>
+                <td className="even-col">IP67 rated</td>
               </tr>
               <tr>
                 <td>Frame</td>
@@ -84,7 +88,7 @@ const SolarTable = () => {
               </tr>
               <tr>
                 <td>No. of Bypass Diodes</td>
-                <td className="even-col">2</td>
+                <td className="even-col">1</td>
               </tr>
               <tr>
                 <td>Connector</td>
@@ -103,9 +107,7 @@ const SolarTable = () => {
             <tbody>
               <tr>
                 <td>Maximum System Voltage</td>
-                <td className="even-col">
-                  DC 1000V(IEC) / 1500V(IEC) / 600V(UL)
-                </td>
+                <td className="even-col">600V(IEC)</td>
               </tr>
               <tr>
                 <td>Operating Temperature</td>
@@ -121,7 +123,7 @@ const SolarTable = () => {
               </tr>
               <tr>
                 <td>Application Class</td>
-                <td className="even-col">A</td>
+                <td className="even-col">Class A</td>
               </tr>
             </tbody>
           </table>
@@ -133,7 +135,9 @@ const SolarTable = () => {
           <table>
             <tbody>
               <tr>
-                <td>Temperature Coefficient of Pmax</td>
+                <td>
+                  Temperature Coefficient of P<sub>max</sub>
+                </td>
                 <td className="even-col">-0.40% /°C</td>
               </tr>
               <tr>
@@ -146,11 +150,10 @@ const SolarTable = () => {
               </tr>
             </tbody>
           </table>
-          <img src="/assets/solar125W2.jpeg" alt="solar-graph" />
         </div>
       </div>
     </div>
   );
 };
 
-export default SolarTable;
+export default SolarTable30;

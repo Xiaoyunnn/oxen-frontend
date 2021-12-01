@@ -19,7 +19,7 @@ function Navbar() {
               alt="logo"
               className="logo"
             />
-            OST
+            OXEN
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>

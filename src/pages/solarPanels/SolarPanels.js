@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Enquiry from "../../components/enquiry/Enquiry";
 import Footer from "../../components/footer/Footer";
 import HeaderSolar from "../../components/headerSolar/HeaderSolar";
@@ -8,6 +8,10 @@ import SolarProducts from "../../components/solarProducts/SolarProducts";
 import SolarSolutions from "../../components/solarSolutions/SolarSolutions";
 
 const SolarPanels = () => {
+  useEffect(() => {
+    document.title = "Solar Panels";
+  }, []);
+
   return (
     <div>
       <Navbar />

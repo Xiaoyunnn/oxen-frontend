@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Enquiry from "../../components/enquiry/Enquiry";
 import Footer from "../../components/footer/Footer";
 import HeaderNoiseMonitoringSys from "../../components/headerNoiseMonitoringSys/HeaderNoiseMonitoringSys";
@@ -8,6 +8,10 @@ import NoiseMonitoringDesc from "../../components/noiseMonitoringDesc/NoiseMonit
 import NoiseProducts from "../../components/noiseProducts/NoiseProducts";
 
 const NoiseMonitoringSys = () => {
+  useEffect(() => {
+    document.title = "Noise Monitoring System";
+  }, []);
+
   return (
     <div>
       <Navbar />

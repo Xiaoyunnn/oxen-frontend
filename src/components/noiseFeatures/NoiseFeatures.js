@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./noiseFeatures.css";
 
 const NoiseFeatures = () => {
@@ -62,10 +63,35 @@ const NoiseFeatures = () => {
           </div>
         </div>
       ) : (
-        <div>Green Energy system</div>
+        <div className="noise-green-sys">
+          <div className="flex-align-start">
+            <i className="fas fa-leaf" />
+            <p>24/7 via solar energy</p>
+          </div>
+          <div className="flex-align-start">
+            <i className="fas fa-leaf" />
+            <p>
+              With solar power, no human intervention is needed and the system
+              will do this seamlessly and automatically
+            </p>
+          </div>
+          <div className="flex-align-start">
+            <i className="fas fa-leaf" />
+            <p>
+              Backup power supply to ensure continuous operation during day and
+              night
+            </p>
+          </div>
+          <div className="flex-align-start">
+            <i className="fas fa-leaf" />
+            <p>Low maintenance cost</p>
+          </div>
+        </div>
       )}
 
-      <button className="learn-more">Download pdf</button>
+      <Link to="/assets/NoiseMeter.pdf" target="_blank" download>
+        <button className="learn-more">Download pdf</button>
+      </Link>
     </div>
   );
 };

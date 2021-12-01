@@ -6,7 +6,7 @@ const AboutDesc = () => {
       <div className="desc-wrapper">
         <h3>
           OST is an IT technology company specialising in the distribution and
-          maintenance of monitoring systems
+          maintenance of monitoring systems for construction sites
         </h3>
         <p>
           The Internet of Things (IoT) has dramatically changed the way the

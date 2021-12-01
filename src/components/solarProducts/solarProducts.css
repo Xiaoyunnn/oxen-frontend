@@ -10,10 +10,13 @@
   padding: 2rem;
   background-color: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  object-fit: contain;
 }
 
 .solar-img-wrapper img {
-  height: 70%;
+  height: 350px;
+  width: 47%;
+  object-fit: contain;
 }

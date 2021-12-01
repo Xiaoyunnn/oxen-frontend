@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-import SolarTable from "../solarTable/SolarTable";
+import SolarTable125 from "../solarTable/SolarTable125";
+import SolarTable30 from "../solarTable30/SolarTable30";
+import SolarTable50 from "../solarTable50/SolarTable50";
+import SolarTableSC from "../solarTableSC/SolarTableSC";
 import "./solarProducts.css";
 
 const SolarProducts = () => {
@@ -41,7 +44,37 @@ const SolarProducts = () => {
             <img src="/assets/solar125W.jpeg" alt="solar-125W" />
             <img src="/assets/solar125W1.jpeg" alt="solar-125W" />
           </div>
-          <SolarTable />
+          <SolarTable125 />
+        </div>
+      )}
+
+      {selected === "50W" && (
+        <div className="container" style={{ paddingBottom: "0" }}>
+          <div className="solar-img-wrapper">
+            <img src="/assets/solar50W.jpg" alt="solar-50W" />
+            <img src="/assets/solar50W.jpeg" alt="solar-50W" />
+          </div>
+          <SolarTable50 />
+        </div>
+      )}
+
+      {selected === "30W" && (
+        <div className="container" style={{ paddingBottom: "0" }}>
+          <div className="solar-img-wrapper">
+            <img src="/assets/solar30W.jpg" alt="solar-30W" />
+            <img src="/assets/solar30W.jpeg" alt="solar-30W" />
+          </div>
+          <SolarTable30 />
+        </div>
+      )}
+
+      {selected === "SC" && (
+        <div className="container" style={{ paddingBottom: "0" }}>
+          <div className="solar-img-wrapper">
+            <img src="/assets/solarcontroller.jpeg" alt="solar-SC" />
+            <img src="/assets/solarcontroller1.jpeg" alt="solar-SC" />
+          </div>
+          <SolarTableSC />
         </div>
       )}
     </div>

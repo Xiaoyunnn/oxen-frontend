@@ -12,7 +12,7 @@ const Footer = () => {
               alt="logo"
               className="footer-logo"
             />
-            <span className="footer-name">OST</span>
+            <span className="footer-name">OXEN</span>
           </div>
           <p>
             OST is an IT technology company specialising in the distribution and
@@ -28,6 +28,7 @@ const Footer = () => {
         <div className="footer-col">
           <h4 className="footer-subhead">Our Location</h4>
           <p>Blk 1013 Geylang East Ave 3, #03-144 Singapore 389728</p>
+          <p>Blk 1014 Geylang East Ave 3, #06-174 Singapore 389728</p>
           <div className="img-hover-wrapper">
             <img
               src="/assets/location.png"
@@ -73,7 +74,7 @@ const Footer = () => {
                 Email Us
               </p>
             </div>
-            <p>sales@oxen.com.sg</p>
+            <p>Sales@oxen.com.sg</p>
           </div>
         </div>
       </div>

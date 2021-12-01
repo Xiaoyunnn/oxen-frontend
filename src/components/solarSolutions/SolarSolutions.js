@@ -17,7 +17,7 @@ const SolarSolutions = () => {
           </div>
 
           <div className="txt-wrapper">
-            <h5>CCTV surveillance</h5>
+            <h5>CCTV Surveillance</h5>
             <p>
               Integrated into system as a source of energy for our green energy
               system.
@@ -71,7 +71,7 @@ const SolarSolutions = () => {
             />
           </div>
           <div className="txt-wrapper">
-            <h5>Traffic monitoring (SkyCam)</h5>
+            <h5>Traffic Monitoring (SkyCam)</h5>
             <p>
               Integrated into system as a source of energy for our green energy
               system.

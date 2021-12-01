@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Enquiry from "../../components/enquiry/Enquiry";
 import Navbar from "../../components/navbar/Navbar";
 import HeaderHome from "../../components/headerHome/HeaderHome";
@@ -8,6 +8,9 @@ import HomeRepair from "../../components/homeRepair/HomeRepair";
 import Footer from "../../components/footer/Footer";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Oxen";
+  }, []);
   return (
     <div>
       <Navbar />

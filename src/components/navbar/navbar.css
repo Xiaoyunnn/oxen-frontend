@@ -119,7 +119,7 @@
   transition: all 1s ease;
 }
 
-@media screen and (max-width: 960px) {
+@media (max-width: 960px) {
   .nav-menu {
     display: flex;
     flex-direction: column;
