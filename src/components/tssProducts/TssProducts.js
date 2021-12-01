@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./noiseProducts.css";
 
-const NoiseProducts = () => {
+const TssProducts = () => {
   return (
     <div className="container">
       <div className="blue-divider" />
@@ -29,16 +28,20 @@ const NoiseProducts = () => {
 
         <div className="img-wrapper flex-center flex-col noise-pdt">
           <div className="img-hover-wrapper product-image">
-            <img src="/assets/nm1.jpeg" alt="noise-meter" className="pdt-img" />
+            <img
+              src="/assets/cctv-pdt.jpg"
+              alt="noise-meter"
+              className="pdt-img"
+            />
             <div className="hover-btn-wrapper">
-              <Link to="/noise-meter">
+              <Link to="/cctv">
                 <button className="hover-btn">View More</button>
               </Link>
             </div>
           </div>
           <div className="txt-wrapper product-text">
-            <h5>Noise Meter</h5>
-            <p>Key feature of our noise monitoring system</p>
+            <h5>CCTV Cameras</h5>
+            <p>Focus of our surveillance system.</p>
           </div>
         </div>
       </div>
@@ -46,4 +49,4 @@ const NoiseProducts = () => {
   );
 };
 
-export default NoiseProducts;
+export default TssProducts;

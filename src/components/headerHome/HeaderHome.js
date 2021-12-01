@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./headerHome.css";
 
 const HeaderHome = () => {
@@ -15,7 +16,9 @@ const HeaderHome = () => {
         <p>
           A complete solution provider for Singapore's construction industry.
         </p>
-        <button className="learn-more">Learn more</button>
+        <Link to="/about">
+          <button className="learn-more">Learn more</button>
+        </Link>
       </div>
     </div>
   );

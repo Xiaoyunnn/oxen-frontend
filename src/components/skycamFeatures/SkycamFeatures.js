@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import GreenSystem from "../tssFeatures/GreenSystem";
-import "./noiseFeatures.css";
 
-const NoiseFeatures = () => {
+const SkycamFeatures = () => {
   const [isFeatureToggle, setIsFeatureToggle] = useState(true);
 
   return (
@@ -28,18 +26,21 @@ const NoiseFeatures = () => {
           <div className="features-col">
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
-              <p>National Environmental Agency (NEA) approved</p>
+              <p>Land Transport Authority of Singapore (LTA) approved.</p>
             </div>
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
               <p>
-                Automatic analysis with reference to legal requirements for
-                different periods. Leq 5 min, 1 hour and 12 hour
+                Supply and maintain a remote traffic monitoring system with
+                video cameras.
               </p>
             </div>
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
-              <p>SMS & Email alerts</p>
+              <p>
+                Capable of using advance technologies, antenna or wireless to
+                create access point, coverage more than 10km.
+              </p>
             </div>
           </div>
 
@@ -47,31 +48,28 @@ const NoiseFeatures = () => {
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
               <p>
-                Web-based, Real-time Noise monitoring (user-password protected)
+                Site managers and project team is able to access 24/7 over
+                internet in order to efficiently manage construction at one
+                glance.
               </p>
             </div>
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
               <p>
-                Various report formats including 24/7, SMS alert, full report
-                can be view anytime and everywhere.
+                Video recording available according to regulator's requirements.
               </p>
             </div>
             <div className="flex-align-start">
               <i className="fas fa-check-circle" />
-              <p>Retrievable data for selected dates over the internet.</p>
+              <p>Using wireless 3G/4G LTE via M2M SIM card or antenna.</p>
             </div>
           </div>
         </div>
       ) : (
         <GreenSystem />
       )}
-
-      <Link to="/assets/NoiseMeter.pdf" target="_blank" download>
-        <button className="learn-more">Download PDF</button>
-      </Link>
     </div>
   );
 };
 
-export default NoiseFeatures;
+export default SkycamFeatures;

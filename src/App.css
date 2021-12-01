@@ -66,6 +66,7 @@ p {
   line-height: 26px;
   color: var(--color-gray);
   font-weight: 300;
+  text-align: justify;
 }
 
 body {

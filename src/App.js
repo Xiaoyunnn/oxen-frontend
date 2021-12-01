@@ -1,13 +1,15 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
-import Contact from "./pages/contact/Contact";
-import Home from "./pages/home/Home";
-import About from "./pages/about/About";
-import NoiseMonitoringSys from "./pages/noiseMonitoringSys/NoiseMonitoringSys";
-import Solutions from "./pages/solutions/Solutions";
-import Products from "./pages/products/Products";
-import Services from "./pages/services/Services";
-import SolarPanels from "./pages/solarPanels/SolarPanels";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import NoiseMonitoringSys from "./pages/NoiseMonitoringSys";
+import Solutions from "./pages/Solutions";
+import Products from "./pages/Products";
+import Services from "./pages/Services";
+import SolarPanels from "./pages/SolarPanels";
+import Tss from "./pages/Tss";
+import Skycam from "./pages/Skycam";
 
 function App() {
   return (
@@ -24,6 +26,9 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/services" element={<Services />} />
         <Route path="/solar-panels" element={<SolarPanels />} />
+        <Route path="/tss" element={<Tss />} />
+        <Route path="/cctv-surveillance" element={<SolarPanels />} />
+        <Route path="/skycam" element={<Skycam />} />
       </Routes>
     </Router>
   );

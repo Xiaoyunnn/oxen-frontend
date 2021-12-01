@@ -14,7 +14,9 @@ const SolutionsGallery = () => {
               className="image"
             />
             <div className="hover-btn-wrapper">
-              <button className="hover-btn">View More</button>
+              <Link to="/tss">
+                <button className="hover-btn">View More</button>
+              </Link>
             </div>
           </div>
           <div className="txt-wrapper">

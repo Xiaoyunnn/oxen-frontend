@@ -7,6 +7,7 @@ import "./solarProducts.css";
 
 const SolarProducts = () => {
   const [selected, setSelected] = useState("125W");
+
   return (
     <div className="noise-features-wrapper" style={{ paddingBottom: "0" }}>
       <div className="toggle-wrapper solar-wrapper">
