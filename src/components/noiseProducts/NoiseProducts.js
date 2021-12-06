@@ -7,7 +7,7 @@ const NoiseProducts = () => {
     <div className="container">
       <div className="blue-divider" />
       <h2>Relevant Products</h2>
-      <div className="flex-center" style={{ marginTop: "2.5rem" }}>
+      <div className="products-container">
         <div className="img-wrapper flex-center flex-col noise-pdt">
           <div className="img-hover-wrapper product-image">
             <img

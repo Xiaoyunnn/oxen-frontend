@@ -111,7 +111,11 @@ body {
   margin-top: 50px;
 }
 
-@media screen and (max-width: 700px) {
+.solution-header-caption {
+  width: 50%;
+}
+
+@media screen and (max-width: 950px) {
   h1 {
     font-size: 32px;
     margin-bottom: 5px;
@@ -120,12 +124,15 @@ body {
   h2 {
     line-height: 40px;
     font-size: 28px;
+    text-align: center;
+    width: 80%;
   }
 
   h3 {
     font-size: 18px;
     line-height: 32px;
     margin-bottom: 6px;
+    text-align: justify;
   }
 
   h4 {
@@ -151,5 +158,15 @@ body {
 
   .container {
     padding: 0.5rem 7%;
+  }
+
+  .flex-align-start {
+    align-items: baseline;
+  }
+
+  .solution-header-caption {
+    width: 60%;
+    color: rgb(185, 185, 185);
+    text-align: left;
   }
 }

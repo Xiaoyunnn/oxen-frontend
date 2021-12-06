@@ -4,7 +4,7 @@ const BC01Desc = () => {
   return (
     <div>
       <div className="table-wrapper cctv-row">
-        <div className="cctv-col" style={{ marginRight: "2.5rem" }}>
+        <div className="cctv-col cctv-margin">
           <h5>1080P Full HD Video Quality</h5>
           <p>
             High-performance Image Sensor 1/2.9 CMOS, 1920*1080 Resolution.
@@ -27,7 +27,7 @@ const BC01Desc = () => {
       </div>
 
       <div className="table-wrapper cctv-row">
-        <div className="cctv-col" style={{ marginRight: "2.5rem" }}>
+        <div className="cctv-col cctv-margin">
           <h5>Infrared Night Vision Up To 65ft: Waterproof IP66</h5>
           <p>
             This camera is coming with an IP66 Level Waterproof Steady Aluminum

@@ -11,3 +11,22 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 950px) {
+  .solution-gallery-wrapper {
+    width: 95%;
+    height: 100%;
+    padding: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .solution-gallery-title {
+    height: 100%;
+    padding-top: 10px;
+  }
+
+  .solution-gallery-title-2 {
+    height: 100%;
+    padding-top: 10px;
+  }
+}

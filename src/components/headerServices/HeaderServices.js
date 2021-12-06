@@ -11,7 +11,7 @@ rgba(39, 44, 73, 0) 107.37%), url("/assets/header-services.jpg")`,
     >
       <div className="header-text">
         <h1>Services</h1>
-        <p style={{ width: "50%" }}>
+        <p className="solution-header-caption">
           Regular calibration ensures that your measurements are consistently
           reliable, so you’ll always enjoy peace of mind in your work.
         </p>

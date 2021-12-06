@@ -15,3 +15,21 @@
 .product-image .hover-btn-wrapper {
   bottom: 50%;
 }
+
+.product-pg-container {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 950px) {
+  .product-pg-container {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .product-pg-container .first {
+    margin-top: 1rem;
+  }
+}

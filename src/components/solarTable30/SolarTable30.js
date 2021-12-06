@@ -4,7 +4,7 @@ const SolarTable30 = () => {
   return (
     <div className="container">
       <div className="table-wrapper">
-        <div style={{ marginRight: "2.5rem" }}>
+        <div className="table-margin">
           <h5 style={{ textAlign: "left" }}>About Products</h5>
           <hr style={{ marginBottom: "6px" }} />
           <table>
@@ -100,7 +100,7 @@ const SolarTable30 = () => {
       </div>
 
       <div className="table-wrapper">
-        <div style={{ marginRight: "2.5rem" }}>
+        <div className="table-margin">
           <h5 style={{ textAlign: "left" }}>Working Conditions</h5>
           <hr style={{ marginBottom: "6px" }} />
           <table>

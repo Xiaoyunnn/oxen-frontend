@@ -5,3 +5,34 @@
 .cctv-col {
   width: 50%;
 }
+
+.cctv-margin {
+  margin-right: 2.5rem;
+}
+
+@media screen and (max-width: 950px) {
+  .cctv-col {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cctv-row {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .cctv-margin {
+    margin-right: 0;
+  }
+
+  .cctv-margin h5 {
+    margin-top: 1.75rem;
+  }
+
+  .cctv-col h5 {
+    margin-top: 1.2rem;
+  }
+}

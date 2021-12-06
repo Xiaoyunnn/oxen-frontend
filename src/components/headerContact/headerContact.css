@@ -12,3 +12,14 @@
 .subheader-wrapper p {
   font-size: 20px;
 }
+
+@media screen and (max-width: 950px) {
+  .subheader-wrapper {
+    height: 37vh;
+    background-position: 85% 100%;
+  }
+
+  .subheader-wrapper p {
+    font-size: 16px;
+  }
+}

@@ -36,9 +36,11 @@
 
 @media screen and (max-width: 700px) {
   .header-wrapper p {
-    width: 50%;
+    width: 60%;
+    text-align: left;
     font-size: 16px;
     line-height: 1.5;
+    color: rgb(185, 185, 185);
   }
 
   .learn-more {
@@ -49,6 +51,6 @@
   }
 
   .header-wrapper {
-    height: 60vh;
+    height: 40vh;
   }
 }

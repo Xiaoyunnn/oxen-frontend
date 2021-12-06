@@ -4,7 +4,7 @@ const BC05Desc = () => {
   return (
     <div>
       <div className="table-wrapper cctv-row">
-        <div className="cctv-col" style={{ marginRight: "2.5rem" }}>
+        <div className="cctv-col cctv-margin">
           <h5>5MP Full HD Video Quality</h5>
           <p>
             High-performance image sensor CMOS, 2592x1920, resolution 3.6mm
@@ -25,7 +25,7 @@ const BC05Desc = () => {
       </div>
 
       <div className="table-wrapper cctv-row">
-        <div className="cctv-col" style={{ marginRight: "2.5rem" }}>
+        <div className="cctv-col cctv-margin">
           <h5>Infrared Night Vision Up To 65ft: Waterproof IP67</h5>
           <p>
             The indoor/outdoor security camera come with 36 pieces infrared LED

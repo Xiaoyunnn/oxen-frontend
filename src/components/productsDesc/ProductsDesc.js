@@ -7,8 +7,8 @@ const ProductsDesc = () => {
     <div className="container">
       <div className="blue-divider" />
       <h2>Relevant Products</h2>
-      <div className="flex-center" style={{ marginTop: "2.5rem" }}>
-        <div className="img-wrapper flex-center flex-col noise-pdt">
+      <div className="product-pg-container">
+        <div className="img-wrapper flex-center flex-col noise-pdt first">
           <div className="img-hover-wrapper product-image">
             <img
               src="/assets/solar125W.jpeg"
@@ -28,7 +28,7 @@ const ProductsDesc = () => {
           </div>
         </div>
 
-        <div className="img-wrapper flex-center flex-col noise-pdt">
+        <div className="img-wrapper flex-center flex-col noise-pdt ">
           <div className="img-hover-wrapper product-image">
             <img src="/assets/nm1.jpeg" alt="nm1" className="pdt-img" />
             <div className="hover-btn-wrapper">
@@ -45,7 +45,7 @@ const ProductsDesc = () => {
         </div>
       </div>
 
-      <div className="flex-center" style={{ marginTop: "2.5rem" }}>
+      <div className="product-pg-container">
         <div className="img-wrapper flex-center flex-col noise-pdt">
           <div className="img-hover-wrapper product-image">
             <img

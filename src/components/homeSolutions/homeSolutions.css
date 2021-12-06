@@ -116,7 +116,6 @@
   }
 
   .img-wrapper p {
-    text-align: center;
     font-size: 14px;
     line-height: 30px;
   }
@@ -127,6 +126,11 @@
 
   .img-text-container {
     flex-direction: column;
-    padding: 16px 30px;
+    padding: 16px 30px 0;
+  }
+
+  .solution-title {
+    height: 100%;
+    margin-top: 1rem;
   }
 }

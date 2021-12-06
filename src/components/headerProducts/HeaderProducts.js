@@ -11,7 +11,9 @@ rgba(39, 44, 73, 0) 107.37%), url("/assets/header-products.jpg")`,
     >
       <div className="header-text">
         <h1>Products</h1>
-        <p>Range of products incorporated with our solutions.</p>
+        <p className="solution-header-caption">
+          Range of products incorporated with our solutions.
+        </p>
       </div>
     </div>
   );

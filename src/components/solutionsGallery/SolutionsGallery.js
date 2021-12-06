@@ -6,7 +6,7 @@ const SolutionsGallery = () => {
   return (
     <div className="container">
       <div className="img-text-container">
-        <div className="img-wrapper flex-center flex-col">
+        <div className="img-wrapper flex-center flex-col solution-gallery-wrapper">
           <div className="img-hover-wrapper">
             <img
               src="/assets/ecm.jpeg"
@@ -31,7 +31,7 @@ const SolutionsGallery = () => {
           </div>
         </div>
 
-        <div className="img-wrapper flex-center flex-col">
+        <div className="img-wrapper flex-center flex-col solution-gallery-wrapper">
           <div className="img-hover-wrapper">
             <img
               src="/assets/slm.jpeg"
@@ -55,7 +55,7 @@ const SolutionsGallery = () => {
           </div>
         </div>
 
-        <div className="img-wrapper flex-center flex-col">
+        <div className="img-wrapper flex-center flex-col solution-gallery-wrapper">
           <div className="img-hover-wrapper">
             <img
               src="/assets/vibration1.png"
@@ -81,7 +81,7 @@ const SolutionsGallery = () => {
       </div>
 
       <div className="img-text-container">
-        <div className="img-wrapper flex-center flex-col">
+        <div className="img-wrapper flex-center flex-col solution-gallery-wrapper">
           <div className="img-hover-wrapper">
             <img
               src="/assets/cctv1.png"
@@ -106,7 +106,7 @@ const SolutionsGallery = () => {
           </div>
         </div>
 
-        <div className="img-wrapper flex-center flex-col">
+        <div className="img-wrapper flex-center flex-col solution-gallery-wrapper">
           <div className="img-hover-wrapper">
             <img
               src="/assets/bigcam.jpeg"
@@ -130,7 +130,7 @@ const SolutionsGallery = () => {
           </div>
         </div>
 
-        <div className="img-wrapper flex-center flex-col">
+        <div className="img-wrapper flex-center flex-col solution-gallery-wrapper">
           <div className="img-hover-wrapper">
             <img
               src="/assets/turnstile.jpg"

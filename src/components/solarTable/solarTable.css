@@ -49,3 +49,31 @@ tr:nth-child(even) {
 .sc-table {
   width: 70vw;
 }
+
+.table-margin {
+  margin-right: 2.5rem;
+}
+
+@media screen and (max-width: 950px) {
+  .table-wrapper {
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+
+  .table-margin {
+    margin-right: 0;
+  }
+
+  table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .table-margin-top {
+    margin-top: 1rem;
+  }
+
+  .sc-table {
+    width: 80vw;
+  }
+}

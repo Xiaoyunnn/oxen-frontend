@@ -11,7 +11,7 @@ rgba(39, 44, 73, 0) 107.37%), url("/assets/header-solutions.jpg")`,
     >
       <div className="header-text">
         <h1>Solutions</h1>
-        <p style={{ width: "50%" }}>
+        <p className="solution-header-caption">
           Complete consturction solutions that meets government's regulations.
         </p>
       </div>

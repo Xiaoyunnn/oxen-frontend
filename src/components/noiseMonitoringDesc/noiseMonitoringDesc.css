@@ -31,3 +31,21 @@
   border-radius: 15px;
   box-shadow: 0px 4px 60px 20px rgba(137, 143, 148, 0.21);
 }
+
+@media screen and (max-width: 950px) {
+  .desc-img-container {
+    flex-direction: column-reverse;
+  }
+
+  .desc-wrapper {
+    width: 90%;
+    padding-right: 0;
+  }
+
+  .desc-img-wrapper {
+    width: 90%;
+    height: 220px;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+}

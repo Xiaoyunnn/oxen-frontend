@@ -20,3 +20,18 @@
   width: 47%;
   object-fit: contain;
 }
+
+@media screen and (max-width: 950px) {
+  .solar-wrapper {
+    width: 85vw;
+  }
+
+  .solar-img-wrapper {
+    width: 85vw;
+    padding: 0rem;
+  }
+
+  .solar-img-wrapper img {
+    height: 200px;
+  }
+}

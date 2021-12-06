@@ -7,7 +7,7 @@ const SolarSolutions = () => {
     <div className="container">
       <div className="blue-divider" />
       <h2>Relevant Solutions</h2>
-      <div className="flex-center" style={{ marginTop: "2.5rem" }}>
+      <div className="products-container">
         <div className="img-wrapper flex-center flex-col solar-pdt">
           <div className="img-hover-wrapper product-image">
             <img
@@ -55,7 +55,7 @@ const SolarSolutions = () => {
         </div>
       </div>
 
-      <div className="flex-center" style={{ marginTop: "2.5rem" }}>
+      <div className="products-container second">
         <div className="img-wrapper flex-center flex-col solar-pdt">
           <div className="img-hover-wrapper product-image">
             <img
