@@ -51,9 +51,7 @@ const Footer = () => {
           <div className="footer-contact">
             <div className="footer-contact-heading">
               <i className="fas fa-phone-alt" />
-              <p style={{ fontSize: "20px", fontWeight: "400" }}>
-                Give Us a Call
-              </p>
+              <p className="footer-contact-subhead">Give Us a Call</p>
             </div>
 
             <p>Tel: +65 6748 0468</p>
@@ -65,10 +63,9 @@ const Footer = () => {
             <div className="footer-contact-heading">
               <i className="fas fa-envelope" />
               <p
+                className="footer-contact-subhead"
                 style={{
-                  fontSize: "20px",
                   marginTop: "12px",
-                  fontWeight: "400",
                 }}
               >
                 Email Us

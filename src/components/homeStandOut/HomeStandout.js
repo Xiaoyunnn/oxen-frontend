@@ -7,7 +7,7 @@ const HomeStandout = () => {
       <div className="blue-divider" />
       <h2>What Makes Us Stand Out</h2>
 
-      <div className="img-text-container">
+      <div className="img-text-container home-standout">
         <div className="characteristic-card-wrapper">
           <div className="characteristic-title flex-center">
             <img src="/assets/ecofriend.png" alt="eco-friendly" />

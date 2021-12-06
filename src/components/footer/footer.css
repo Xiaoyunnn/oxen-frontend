@@ -114,8 +114,66 @@ hr {
   margin-top: 12px;
 }
 
+.footer-contact-subhead {
+  font-size: 20px;
+  font-weight: 400;
+}
+
 @media (min-width: 1150px) {
   .footer-col .hover-btn-wrapper {
     bottom: 60%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .footer-wrapper {
+    margin-top: 40px;
+    padding: 2.5rem 10%;
+  }
+
+  .img-txt-container.flex-align-start {
+    flex-direction: column;
+  }
+
+  .footer-col {
+    width: 90%;
+    flex-direction: column;
+    padding: 0 0.75rem 1.2rem !important;
+  }
+
+  .footer-logo {
+    width: 35px;
+    height: 35px;
+    padding-right: 8px;
+  }
+
+  .fab {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .footer-name {
+    font-size: 2rem;
+  }
+
+  .footer-subhead {
+    line-height: 32px;
+  }
+
+  .fas {
+    font-size: 14px;
+    padding-right: 8px;
+  }
+
+  .footer-contact-subhead {
+    font-size: 16px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    line-height: 2;
   }
 }

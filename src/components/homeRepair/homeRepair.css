@@ -20,3 +20,11 @@
   bottom: 130px;
   margin-bottom: -70px;
 }
+
+@media screen and (max-width: 950px) {
+  .repair-wrapper {
+    background-color: var(--color-text);
+    margin-top: 32px;
+    padding: 0.5rem 0 2.5rem;
+  }
+}

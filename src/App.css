@@ -110,3 +110,46 @@ body {
   border-radius: 20px;
   margin-top: 50px;
 }
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    line-height: 40px;
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 6px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  h5 {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 8px 0;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .blue-divider {
+    width: 50px;
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    padding: 0.5rem 7%;
+  }
+}
