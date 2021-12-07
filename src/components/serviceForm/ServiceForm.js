@@ -43,9 +43,14 @@ const ServiceForm = () => {
 
       console.log(res);
       setServiceEnquiry({
-        name: "",
-        contact: "",
+        company: "",
+        address: "",
         fromEmail: "",
+        equipmentBrand: "",
+        equipmentModel: "",
+        equipmentSN: "",
+        purchaseDate: null,
+        calibrationDate: null,
         subject: "",
         content: "",
       });
