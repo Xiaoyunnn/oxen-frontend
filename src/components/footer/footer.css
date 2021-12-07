@@ -5,8 +5,8 @@
 }
 
 .footer-logo {
-  width: 40px;
-  height: 40px;
+  width: 37px;
+  height: 37px;
   padding-right: 10px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .footer-name {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   color: var(--color-theme);
   font-weight: bold;
 }
@@ -121,7 +121,7 @@ hr {
 
 @media (min-width: 1150px) {
   .footer-col .hover-btn-wrapper {
-    bottom: 60%;
+    bottom: 50%;
   }
 }
 
@@ -175,5 +175,15 @@ hr {
   .copyright {
     font-size: 12px;
     line-height: 2;
+  }
+
+  .footer-name {
+    font-size: 2rem;
+  }
+
+  .footer-logo {
+    width: 32px;
+    height: 32px;
+    padding-right: 5px;
   }
 }

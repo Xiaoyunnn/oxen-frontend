@@ -34,7 +34,7 @@ const TssProducts = () => {
               className="pdt-img"
             />
             <div className="hover-btn-wrapper">
-              <Link to="/cctv">
+              <Link to="/cctv-cameras">
                 <button className="hover-btn">View More</button>
               </Link>
             </div>
