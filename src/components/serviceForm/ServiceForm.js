@@ -155,7 +155,7 @@ const ServiceForm = () => {
                       };
                     })
                   }
-                  renderInput={(params) => <TextField {...params} />}
+                  renderInput={(params) => <TextField required {...params} />}
                   required
                 />
               </LocalizationProvider>
@@ -177,7 +177,7 @@ const ServiceForm = () => {
                       };
                     })
                   }
-                  renderInput={(params) => <TextField {...params} />}
+                  renderInput={(params) => <TextField required {...params} />}
                   required
                 />
               </LocalizationProvider>
