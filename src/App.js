@@ -21,26 +21,31 @@ function App() {
   return (
     <Router>
       <Routes>
+        {/* Navbar */}
         <Route path="/" exact="true" element={<Home />} />
-        <Route
-          path="/noise-monitoring-system"
-          element={<NoiseMonitoringSys />}
-        />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/solutions" element={<Solutions />} />
         <Route path="/products" element={<Products />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/solar-panels" element={<SolarPanels />} />
+        <Route path="/contact" element={<Contact />} />
+
+        {/* Solutions */}
         <Route path="/tss" element={<Tss />} />
-        <Route path="/cctv-surveillance" element={<CctvSurveillance />} />
-        <Route path="/cctv-cameras" element={<CctvCameras />} />
-        <Route path="/skycam" element={<Skycam />} />
+        <Route
+          path="/noise-monitoring-system"
+          element={<NoiseMonitoringSys />}
+        />
         <Route path="/vibration-monitoring-system" element={<VibrationSys />} />
+        <Route path="/cctv-surveillance" element={<CctvSurveillance />} />
+        <Route path="/skycam" element={<Skycam />} />
         <Route
           path="/biometric-authentication-system"
           element={<BiometricSys />}
         />
+
+        {/* Products */}
+        <Route path="/solar-panels" element={<SolarPanels />} />
+        <Route path="/cctv-cameras" element={<CctvCameras />} />
         <Route path="/noise-meter" element={<NoiseMeter />} />
         <Route path="/vibration-meter" element={<VibrationMeter />} />
       </Routes>
