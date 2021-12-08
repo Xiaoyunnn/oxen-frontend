@@ -2,9 +2,9 @@ import React from "react";
 
 const SolarTableSC = () => {
   return (
-    <div className="container">
+    <div className="container solar-table">
       <div className="table-wrapper">
-        <div>
+        <div className="mech-param">
           <h5 style={{ textAlign: "left" }}>Technical Parameters</h5>
           <hr style={{ marginBottom: "6px" }} />
           <table className="sc-table">

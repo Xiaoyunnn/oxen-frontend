@@ -2,6 +2,8 @@ import React from "react";
 import "./footer.css";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <div className="footer-wrapper">
       <div className="img-txt-container flex-align-start">
@@ -27,8 +29,16 @@ const Footer = () => {
 
         <div className="footer-col">
           <h4 className="footer-subhead">Our Location</h4>
-          <p>Blk 1013 Geylang East Ave 3, #03-144 Singapore 389728</p>
-          <p>Blk 1014 Geylang East Ave 3, #06-174 Singapore 389728</p>
+
+          <p>
+            <i className="fas fa-map-marker-alt" />
+            Blk 1013 Geylang East Ave 3, #03-144 Singapore 389728
+          </p>
+
+          <p>
+            <i className="fas fa-map-marker-alt" />
+            Blk 1014 Geylang East Ave 3, #06-174 Singapore 389728
+          </p>
           <div className="img-hover-wrapper">
             <img
               src="/assets/location.png"
@@ -76,9 +86,7 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <p className="copyright">
-        © 2021 By Oxen Pvt Ltd. | Site By Contrannect.
-      </p>
+      <p className="copyright">© {year} by Oxen Pte Ltd</p>
     </div>
   );
 };

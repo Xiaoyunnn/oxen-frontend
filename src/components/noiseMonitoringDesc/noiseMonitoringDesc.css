@@ -48,4 +48,12 @@
     margin-left: 0;
     margin-bottom: 1rem;
   }
+
+  .desc-img-wrapper {
+    max-width: none;
+  }
+
+  .desc-img-wrapper img {
+    max-width: none;
+  }
 }

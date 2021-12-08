@@ -1,13 +1,16 @@
 .navbar {
   background-color: var(--color-bg);
   height: 80px;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 20;
+  -webkit-box-shadow: 0px 0px 15px 3px rgba(138, 138, 138, 0.25);
+  box-shadow: 0px 0px 15px 3px rgba(138, 138, 138, 0.25);
 }
 
 .nav-container {
@@ -19,12 +22,13 @@
 }
 
 .main-container {
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.3);
+  z-index: 10;
 }
 
 .nav-logo {
@@ -126,7 +130,7 @@
     width: 100%;
     border-top: 1px solid #fff;
     position: absolute;
-    top: 80px;
+    top: 70px;
     left: -110%;
     opacity: 1;
     transition: all 0.5s ease;

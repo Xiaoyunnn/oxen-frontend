@@ -133,4 +133,14 @@
     height: 20%;
     margin-top: 1rem;
   }
+
+  .image {
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image {
+    height: 27vh;
+  }
 }

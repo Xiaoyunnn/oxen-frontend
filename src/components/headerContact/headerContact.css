@@ -1,6 +1,7 @@
 .subheader-wrapper {
   background-size: cover;
   height: 57vh;
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   padding-left: 10%;
@@ -16,7 +17,7 @@
 @media screen and (max-width: 950px) {
   .subheader-wrapper {
     height: 37vh;
-    background-position: 85% 100%;
+    background-position: 50% 100%;
   }
 
   .subheader-wrapper p {

@@ -40,15 +40,15 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background: #f6f6f6;
-  /* border: 1px solid rgba(197, 197, 197, 0.445); */
+  background: rgb(252, 252, 252);
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   padding: 6px;
-  box-shadow: 0px 0px 40px 5px rgba(187, 187, 187, 0.63);
+  -webkit-box-shadow: 0px 0px 15px 3px rgba(138, 138, 138, 0.25);
+  box-shadow: 0px 0px 15px 3px rgba(138, 138, 138, 0.25);
 }
 
 .prev {
@@ -59,7 +59,8 @@
 .next {
   position: absolute;
   top: 50%;
-  left: 88%;
+  left: unset;
+  right: 6px;
 }
 
 .container-dots {
@@ -68,6 +69,7 @@
   left: 50%;
   transform: translateX(-50%);
   display: flex;
+  cursor: pointer;
 }
 
 .dot {

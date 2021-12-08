@@ -29,6 +29,8 @@
   .solar-img-wrapper {
     width: 85vw;
     padding: 0rem;
+    margin-top: 10px;
+    height: 35vh;
   }
 
   .solar-img-wrapper img {

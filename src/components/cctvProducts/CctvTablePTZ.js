@@ -2,7 +2,7 @@ import React from "react";
 
 const CctvTablePTZ = () => {
   return (
-    <div className="container">
+    <div className="container solar-table">
       <div className="table-wrapper">
         <div>
           <h5 style={{ textAlign: "left" }}>Specifications</h5>

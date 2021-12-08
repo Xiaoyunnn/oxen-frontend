@@ -58,10 +58,18 @@ tr:nth-child(even) {
   .table-wrapper {
     flex-direction: column;
     padding-bottom: 1rem;
+    width: 100%;
   }
 
   .table-margin {
     margin-right: 0;
+    width: 100%;
+  }
+
+  .solar-table {
+    padding: 0;
+    padding-top: 1rem;
+    width: 100%;
   }
 
   table {
@@ -74,6 +82,10 @@ tr:nth-child(even) {
   }
 
   .sc-table {
-    width: 80vw;
+    width: 100%;
+  }
+
+  .mech-param {
+    width: 100%;
   }
 }

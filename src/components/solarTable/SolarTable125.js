@@ -3,7 +3,7 @@ import "./solarTable.css";
 
 const SolarTable125 = () => {
   return (
-    <div className="container">
+    <div className="container solar-table">
       <div className="table-wrapper">
         <div className="table-margin">
           <h5 style={{ textAlign: "left" }}>About Products</h5>
@@ -46,7 +46,7 @@ const SolarTable125 = () => {
           </p>
         </div>
 
-        <div>
+        <div className="mech-param">
           <h5 style={{ textAlign: "left" }}>Mechanical Parameters</h5>
           <hr style={{ marginBottom: "6px" }} />
           <table>
